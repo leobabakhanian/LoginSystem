@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Calibri";
+}
+
+body{
+    font-size: 120%;
+    background: #F8F8FF;
+    background-color: #f1f1ff;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #B0C4DE;
+}
+
+tr:nth-child(odd){
+    background-color: #9cb5d4;
+}
+
+th{
+    background-color: #284494;
+    color: white;
+}
+
+.header{
+    width: 40%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #284494;
+    text-align: center;
+    border: 2px solid #284494;
+    border-bottom: none;
+    padding: 20px;
+}
+
+.adminheader{
+    width: 25%;
+    margin: 25px auto;
+    color: white;
+    background: #284494;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px solid #B0C4DE;
+    border-top: none;
+    background: white;
+}
+
+.inputs{
+    margin: 0px 0px 10px 10px;
+}
+
+.inputs label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.inputs input {
+    height: 30px;
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+.ask{
+    margin: 20px 0px 0px 0px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #284494;
+    border: none;
+    border-radius: 5px;
+}
+
+.welcome{
+    margin-bottom: 20px;
+}
+
+.welcomeUser{
+    color: #284494;
+}
+
+.error{
+    width: 94%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    text-align: left;
+}
+
+.regSuccess{
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px solid #B0C4DE;
+    border-top: none;
+    background: white;
+    text-align: center;
+}
+
+.content{
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px solid #B0C4DE;
+    border-top: none;
+    background: white;
+}
+
+.myBtn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #284494;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout{
+    margin-top: 20px;
+}
+
+.logoutA{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+/* Background pattern I found online */
+.wrapper{
+    background-color: #f1f1ff; 
+    background: linear-gradient(135deg, #e9eaff55 25%, transparent 25%) -10px 0/ 20px 20px, 
+        linear-gradient(225deg, #e9eaff 25%, transparent 25%) -10px 0/ 20px 20px, 
+        linear-gradient(315deg, #e9eaff55 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg,
+        #e9eaff 25%, #f1f1ff 25%) 0px 0/ 20px 20px;
+    opacity: 0.85;
+}
